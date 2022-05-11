@@ -1,0 +1,3596 @@
+[
+  {
+    "id": 1,
+    "name_fr": "Pi\u00c3\u00a9ride de la rave",
+    "name_en": "Common Butterfly",
+    "coords": [
+      1,
+      1
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    "months_south": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "location": "Air",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 160
+  },
+  {
+    "id": 2,
+    "name_fr": "Citrin",
+    "name_en": "Yellow Butterfly",
+    "coords": [
+      2,
+      1
+    ],
+    "months_north": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "months_south": [
+      3,
+      4,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "location": "Air",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 160
+  },
+  {
+    "id": 3,
+    "name_fr": "Machaon",
+    "name_en": "Tiger Butterfly",
+    "coords": [
+      3,
+      1
+    ],
+    "months_north": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "location": "Air",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 240
+  },
+  {
+    "id": 4,
+    "name_fr": "Papilio bianor",
+    "name_en": "Peacock Butterfly",
+    "coords": [
+      4,
+      1
+    ],
+    "months_north": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "months_south": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "location": "Air",
+    "probability": "Rare",
+    "threshold": 20,
+    "price": 130
+  },
+  {
+    "id": 5,
+    "name_fr": "Graphium sarpedon",
+    "name_en": "Common Bluebottle",
+    "coords": [
+      5,
+      1
+    ],
+    "months_north": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "location": "Air",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 300
+  },
+  {
+    "id": 6,
+    "name_fr": "Grand planeur",
+    "name_en": "Paper Kite Butterfly",
+    "coords": [
+      1,
+      2
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "location": "Air",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 1000
+  },
+  {
+    "id": 7,
+    "name_fr": "Sasakia charonda",
+    "name_en": "Great Purple Emperor",
+    "coords": [
+      2,
+      2
+    ],
+    "months_north": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2,
+      11,
+      12
+    ],
+    "hours": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "location": "Air",
+    "probability": "Rare",
+    "threshold": 50,
+    "price": 3000
+  },
+  {
+    "id": 8,
+    "name_fr": "Monarque",
+    "name_en": "Monach Butterfly",
+    "coords": [
+      3,
+      2
+    ],
+    "months_north": [
+      9,
+      10,
+      11
+    ],
+    "months_south": [
+      3,
+      4,
+      5
+    ],
+    "hours": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "location": "Air",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 140
+  },
+  {
+    "id": 9,
+    "name_fr": "Morpho bleu",
+    "name_en": "Emperor Butterfly",
+    "coords": [
+      4,
+      2
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "hours": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Air",
+    "probability": "Rare",
+    "threshold": 20,
+    "price": 4000
+  },
+  {
+    "id": 10,
+    "name_fr": "Agrias",
+    "name_en": "Agrias Butterfly",
+    "coords": [
+      5,
+      2
+    ],
+    "months_north": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "location": "Air",
+    "probability": "Rare",
+    "threshold": 20,
+    "price": 3000
+  },
+  {
+    "id": 11,
+    "name_fr": "Troides brookiana",
+    "name_en": "Raja Brooke's Birdwing",
+    "coords": [
+      1,
+      3
+    ],
+    "months_north": [
+      1,
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      12
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      6,
+      7,
+      8,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "location": "Air",
+    "probability": "Rare",
+    "threshold": 20,
+    "price": 2500
+  },
+  {
+    "id": 12,
+    "name_fr": "Troides alexandr\u00c3\u00a6",
+    "name_en": "Queen Alexandra's Birdwing",
+    "coords": [
+      2,
+      3
+    ],
+    "months_north": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "location": "Air",
+    "probability": "Rare",
+    "threshold": 50,
+    "price": 4000
+  },
+  {
+    "id": 13,
+    "name_fr": "Papillon de nuit",
+    "name_en": "Moth",
+    "coords": [
+      3,
+      3
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3
+    ],
+    "location": "Air",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 130
+  },
+  {
+    "id": 14,
+    "name_fr": "Attacus Atlas",
+    "name_en": "Atlas Moth",
+    "coords": [
+      4,
+      3
+    ],
+    "months_north": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3
+    ],
+    "location": "Tronc",
+    "probability": "Rare",
+    "threshold": 20,
+    "price": 3000
+  },
+  {
+    "id": 15,
+    "name_fr": "Chrysiridia rhipheus",
+    "name_en": "Madagascan Sunset Moth",
+    "coords": [
+      5,
+      3
+    ],
+    "months_north": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "location": "Air",
+    "probability": "Rare",
+    "threshold": 20,
+    "price": 2500
+  },
+  {
+    "id": 16,
+    "name_fr": "Acrida cinerea",
+    "name_en": "Long Locust",
+    "coords": [
+      1,
+      4
+    ],
+    "months_north": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "location": "Sol",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 200
+  },
+  {
+    "id": 17,
+    "name_fr": "Criquet p\u00c3\u00a8lerin",
+    "name_en": "Migratory Locust",
+    "coords": [
+      2,
+      4
+    ],
+    "months_north": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "months_south": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "location": "Sol",
+    "probability": "Peu commun",
+    "threshold": 20,
+    "price": 600
+  },
+  {
+    "id": 18,
+    "name_fr": "Criquet",
+    "name_en": "Rice Grasshopper",
+    "coords": [
+      3,
+      4
+    ],
+    "months_north": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "months_south": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "location": "Sol",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 400
+  },
+  {
+    "id": 19,
+    "name_fr": "Sauterelle",
+    "name_en": "Grasshopper",
+    "coords": [
+      4,
+      4
+    ],
+    "months_north": [
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "location": "Sol",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 160
+  },
+  {
+    "id": 20,
+    "name_fr": "Grillon des pr\u00c3\u00a9s",
+    "name_en": "Cricket",
+    "coords": [
+      5,
+      4
+    ],
+    "months_north": [
+      9,
+      10,
+      11
+    ],
+    "months_south": [
+      3,
+      4,
+      5
+    ],
+    "hours": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Sol",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 130
+  },
+  {
+    "id": 21,
+    "name_fr": "Grillon du Midi",
+    "name_en": "Bell Cricket",
+    "coords": [
+      1,
+      5
+    ],
+    "months_north": [
+      9,
+      10
+    ],
+    "months_south": [
+      3,
+      4
+    ],
+    "hours": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Sol",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 430
+  },
+  {
+    "id": 22,
+    "name_fr": "Mante religieuse",
+    "name_en": "Mantis",
+    "coords": [
+      2,
+      5
+    ],
+    "months_north": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "location": "Fleur",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 430
+  },
+  {
+    "id": 23,
+    "name_fr": "Mante orchid\u00c3\u00a9e",
+    "name_en": "Orchid Mantis",
+    "coords": [
+      3,
+      5
+    ],
+    "months_north": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "location": "Fleurblanche",
+    "probability": "Plut\u00c3\u00b4t commun",
+    "threshold": 20,
+    "price": 4500
+  },
+  {
+    "id": 24,
+    "name_fr": "Abeille naine",
+    "name_en": "Honeybee",
+    "coords": [
+      4,
+      5
+    ],
+    "months_north": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "months_south": [
+      1,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "location": "Air",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 200
+  },
+  {
+    "id": 25,
+    "name_fr": "Gu\u00c3\u00aape",
+    "name_en": "Wasp",
+    "coords": [
+      5,
+      5
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Arbre",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 2500
+  },
+  {
+    "id": 26,
+    "name_fr": "Cigale cercope",
+    "name_en": "Brown Cicada",
+    "coords": [
+      1,
+      6
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "location": "Tronc",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 250
+  },
+  {
+    "id": 27,
+    "name_fr": "Cigale hyalessa",
+    "name_en": "Robust Cicada",
+    "coords": [
+      2,
+      6
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "location": "Tronc",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 300
+  },
+  {
+    "id": 28,
+    "name_fr": "Cigale g\u00c3\u00a9ante",
+    "name_en": "Giant Cicada",
+    "coords": [
+      3,
+      6
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "location": "Tronc",
+    "probability": "Commun",
+    "threshold": 20,
+    "price": 500
+  },
+  {
+    "id": 29,
+    "name_fr": "Cigale cicadelle",
+    "name_en": "Walker Cicada",
+    "coords": [
+      4,
+      6
+    ],
+    "months_north": [
+      8,
+      9
+    ],
+    "months_south": [
+      2,
+      3
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "location": "Tronc",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 400
+  },
+  {
+    "id": 30,
+    "name_fr": "Cigale higurashi",
+    "name_en": "Evening Cicada",
+    "coords": [
+      5,
+      6
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Tronc",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 550
+  },
+  {
+    "id": 31,
+    "name_fr": "Mue de cigale",
+    "name_en": "Cicada Shell",
+    "coords": [
+      1,
+      7
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3
+    ],
+    "location": "Air",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": 50,
+    "price": 10
+  },
+  {
+    "id": 32,
+    "name_fr": "Sympetrum",
+    "name_en": "Red Dragonfly",
+    "coords": [
+      2,
+      7
+    ],
+    "months_north": [
+      9,
+      10
+    ],
+    "months_south": [
+      3,
+      4
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "location": "Air",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 180
+  },
+  {
+    "id": 33,
+    "name_fr": "Anax napolitain",
+    "name_en": "Darner Dragonfly",
+    "coords": [
+      3,
+      7
+    ],
+    "months_north": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "location": "Air",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 230
+  },
+  {
+    "id": 34,
+    "name_fr": "Cordul\u00c3\u00a9gastre",
+    "name_en": "Banded Dragonfly",
+    "coords": [
+      4,
+      7
+    ],
+    "months_north": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "location": "Air",
+    "probability": "Rare",
+    "threshold": 50,
+    "price": 4500
+  },
+  {
+    "id": 35,
+    "name_fr": "Demoiselle",
+    "name_en": "Damselfly",
+    "coords": [
+      5,
+      7
+    ],
+    "months_north": [
+      1,
+      2,
+      11,
+      12
+    ],
+    "months_south": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Air",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 500
+  },
+  {
+    "id": 36,
+    "name_fr": "Luciole",
+    "name_en": "Firefly",
+    "coords": [
+      1,
+      8
+    ],
+    "months_north": [
+      6
+    ],
+    "months_south": [
+      12
+    ],
+    "hours": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3
+    ],
+    "location": "Air",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 300
+  },
+  {
+    "id": 37,
+    "name_fr": "Taupe-grillon",
+    "name_en": "Mole Cricket",
+    "coords": [
+      2,
+      8
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      11,
+      12
+    ],
+    "months_south": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Sol",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 500
+  },
+  {
+    "id": 38,
+    "name_fr": "Patineur",
+    "name_en": "Pondskater",
+    "coords": [
+      3,
+      8
+    ],
+    "months_north": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "location": "\u00c3\u0089tang,\u00c2\u00a0Rivi\u00c3\u00a8re",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 130
+  },
+  {
+    "id": 39,
+    "name_fr": "Dytique",
+    "name_en": "Diving Beetle",
+    "coords": [
+      4,
+      8
+    ],
+    "months_north": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "location": "\u00c3\u0089tang,\u00c2\u00a0Rivi\u00c3\u00a8re",
+    "probability": "Peu commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 800
+  },
+  {
+    "id": 40,
+    "name_fr": "Punaise d'eau g\u00c3\u00a9ante",
+    "name_en": "Giant Water Bug",
+    "coords": [
+      5,
+      8
+    ],
+    "months_north": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "\u00c3\u0089tang,\u00c2\u00a0Rivi\u00c3\u00a8re",
+    "probability": "Rare",
+    "threshold": 50,
+    "price": 2000
+  },
+  {
+    "id": 41,
+    "name_fr": "Punaise",
+    "name_en": "Stinkbug",
+    "coords": [
+      1,
+      9
+    ],
+    "months_north": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Fleur",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 120
+  },
+  {
+    "id": 42,
+    "name_fr": "Catacanthus",
+    "name_en": "Man-faced Stink Bug",
+    "coords": [
+      2,
+      9
+    ],
+    "months_north": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Fleur",
+    "probability": "Plut\u00c3\u00b4t commun",
+    "threshold": 20,
+    "price": 1000
+  },
+  {
+    "id": 43,
+    "name_fr": "Coccinelle",
+    "name_en": "Ladybug",
+    "coords": [
+      3,
+      9
+    ],
+    "months_north": [
+      3,
+      4,
+      5,
+      6,
+      10
+    ],
+    "months_south": [
+      4,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "location": "Fleur",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 200
+  },
+  {
+    "id": 44,
+    "name_fr": "Cicind\u00c3\u00a8le",
+    "name_en": "Tiger Beetle",
+    "coords": [
+      4,
+      9
+    ],
+    "months_north": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Sol",
+    "probability": "Plut\u00c3\u00b4t commun",
+    "threshold": 20,
+    "price": 1500
+  },
+  {
+    "id": 45,
+    "name_fr": "Bupreste",
+    "name_en": "Jewel Beetle",
+    "coords": [
+      5,
+      9
+    ],
+    "months_north": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Souche",
+    "probability": "Rare",
+    "threshold": 20,
+    "price": 2400
+  },
+  {
+    "id": 46,
+    "name_fr": "Mormolyce",
+    "name_en": "Violin Beetle",
+    "coords": [
+      1,
+      10
+    ],
+    "months_north": [
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "months_south": [
+      3,
+      4,
+      5,
+      11,
+      12
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Souche",
+    "probability": "Peu commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 450
+  },
+  {
+    "id": 47,
+    "name_fr": "Capricorne des agrumes",
+    "name_en": "Citrus Long-horned Beetle",
+    "coords": [
+      2,
+      10
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Souche",
+    "probability": "Peu commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 350
+  },
+  {
+    "id": 48,
+    "name_fr": "Rosalia batesi",
+    "name_en": "Rosalia Batesi Beetle",
+    "coords": [
+      3,
+      10
+    ],
+    "months_north": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Souche",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": 20,
+    "price": 3000
+  },
+  {
+    "id": 49,
+    "name_fr": "Charan\u00c3\u00a7on bleu",
+    "name_en": "Blue Weevil Beetle",
+    "coords": [
+      4,
+      10
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Tronc",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 800
+  },
+  {
+    "id": 50,
+    "name_fr": "Bousier",
+    "name_en": "Dung Beetle",
+    "coords": [
+      5,
+      10
+    ],
+    "months_north": [
+      1,
+      2,
+      12
+    ],
+    "months_south": [
+      6,
+      7,
+      8
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Sol",
+    "probability": "Peu commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 3000
+  },
+  {
+    "id": 51,
+    "name_fr": "Geotrupidae",
+    "name_en": "Earth-boring Dung Beetle",
+    "coords": [
+      1,
+      11
+    ],
+    "months_north": [
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3
+    ],
+    "hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "location": "Sol",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 300
+  },
+  {
+    "id": 52,
+    "name_fr": "Scarab\u00c3\u00a9e",
+    "name_en": "Scarab Beetle",
+    "coords": [
+      2,
+      11
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Tronc",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": 50,
+    "price": 10000
+  },
+  {
+    "id": 53,
+    "name_fr": "Pseudotorynorrhina",
+    "name_en": "Drone Beetle",
+    "coords": [
+      3,
+      11
+    ],
+    "months_north": [
+      6,
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2,
+      12
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Tronc",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 200
+  },
+  {
+    "id": 54,
+    "name_fr": "Scarab\u00c3\u00a9e Goliath",
+    "name_en": "Goliath Beetle",
+    "coords": [
+      4,
+      11
+    ],
+    "months_north": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      12
+    ],
+    "hours": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Tronc",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": 100,
+    "price": 8000
+  },
+  {
+    "id": 55,
+    "name_fr": "Lucane inclinatus",
+    "name_en": "Saw Stag",
+    "coords": [
+      5,
+      11
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Tronc",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 2000
+  },
+  {
+    "id": 56,
+    "name_fr": "Lucane miyama",
+    "name_en": "Miyama Stag",
+    "coords": [
+      1,
+      12
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Tronc",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 1000
+  },
+  {
+    "id": 57,
+    "name_fr": "Lucane cerf-volant",
+    "name_en": "Giant Stag",
+    "coords": [
+      2,
+      12
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Tronc",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 10000
+  },
+  {
+    "id": 58,
+    "name_fr": "Lucane copris iris\u00c3\u00a9",
+    "name_en": "Rainbow Stag",
+    "coords": [
+      3,
+      12
+    ],
+    "months_north": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      12
+    ],
+    "hours": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Tronc",
+    "probability": "Rare",
+    "threshold": 50,
+    "price": 6000
+  },
+  {
+    "id": 59,
+    "name_fr": "Lucane cyclommatus",
+    "name_en": "Cyclommatus Stag",
+    "coords": [
+      4,
+      12
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Tronc",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": 100,
+    "price": 8000
+  },
+  {
+    "id": 60,
+    "name_fr": "Lucane lamprima",
+    "name_en": "Golden Stag",
+    "coords": [
+      5,
+      12
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Tronc",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": 100,
+    "price": 12000
+  },
+  {
+    "id": 61,
+    "name_fr": "Lucane girafe",
+    "name_en": "Giraffe Stag",
+    "coords": [
+      1,
+      13
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Tronc",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": 100,
+    "price": 12000
+  },
+  {
+    "id": 62,
+    "name_fr": "Scarab\u00c3\u00a9e kabuto",
+    "name_en": "Horned Dynastid",
+    "coords": [
+      2,
+      13
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Tronc",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 1350
+  },
+  {
+    "id": 63,
+    "name_fr": "Scarab\u00c3\u00a9e Atlas",
+    "name_en": "Horned Atlas",
+    "coords": [
+      3,
+      13
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Tronc",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": 100,
+    "price": 8000
+  },
+  {
+    "id": 64,
+    "name_fr": "Scarab\u00c3\u00a9e \u00c3\u00a9l\u00c3\u00a9phant",
+    "name_en": "Horned Elephant",
+    "coords": [
+      4,
+      13
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Tronc",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": 100,
+    "price": 8000
+  },
+  {
+    "id": 65,
+    "name_fr": "Scarab\u00c3\u00a9e Hercule",
+    "name_en": "Horned Herucles",
+    "coords": [
+      5,
+      13
+    ],
+    "months_north": [
+      7,
+      8
+    ],
+    "months_south": [
+      1,
+      2
+    ],
+    "hours": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Tronc",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": 100,
+    "price": 12000
+  },
+  {
+    "id": 66,
+    "name_fr": "Phasme",
+    "name_en": "Walking Stick",
+    "coords": [
+      1,
+      14
+    ],
+    "months_north": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "hours": [
+      [
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        17,
+        18
+      ]
+    ],
+    "location": "Tronc",
+    "probability": "Peu commun",
+    "threshold": 20,
+    "price": 600
+  },
+  {
+    "id": 67,
+    "name_fr": "Phyllie",
+    "name_en": "Walking Leaf",
+    "coords": [
+      2,
+      14
+    ],
+    "months_north": [
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Arbre",
+    "probability": "Peu commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 600
+  },
+  {
+    "id": 68,
+    "name_fr": "Psych\u00c3\u00a9",
+    "name_en": "Bagworm",
+    "coords": [
+      3,
+      14
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Arbre",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 600
+  },
+  {
+    "id": 69,
+    "name_fr": "Fourmi",
+    "name_en": "Ant",
+    "coords": [
+      4,
+      14
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Navetpourri",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 80
+  },
+  {
+    "id": 70,
+    "name_fr": "Bernard-l'ermite",
+    "name_en": "Hermit Crab",
+    "coords": [
+      5,
+      14
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Plage",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 1000
+  },
+  {
+    "id": 71,
+    "name_fr": "Ligie",
+    "name_en": "Wharf Roach",
+    "coords": [
+      1,
+      15
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Rocher",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 200
+  },
+  {
+    "id": 72,
+    "name_fr": "Mouche",
+    "name_en": "Fly",
+    "coords": [
+      2,
+      15
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "D\u00c3\u00a9tritus,\u00c2\u00a0Navetpourri",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 60
+  },
+  {
+    "id": 73,
+    "name_fr": "Moustique",
+    "name_en": "Mosquito",
+    "coords": [
+      3,
+      15
+    ],
+    "months_north": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      12
+    ],
+    "hours": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3
+    ],
+    "location": "Air",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 130
+  },
+  {
+    "id": 74,
+    "name_fr": "Puce",
+    "name_en": "Flea",
+    "coords": [
+      4,
+      15
+    ],
+    "months_north": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Villageois",
+    "probability": "Peu commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 70
+  },
+  {
+    "id": 75,
+    "name_fr": "Escargot",
+    "name_en": "Snail",
+    "coords": [
+      5,
+      15
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "location": "Arbuste,\u00c2\u00a0Rocher",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 250
+  },
+  {
+    "id": 76,
+    "name_fr": "Cloporte",
+    "name_en": "Pill Bug",
+    "coords": [
+      1,
+      16
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    "months_south": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "location": "Rocher",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 250
+  },
+  {
+    "id": 77,
+    "name_fr": "Mille-pattes",
+    "name_en": "Centipede",
+    "coords": [
+      2,
+      16
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12
+    ],
+    "months_south": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "location": "Rocher",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 300
+  },
+  {
+    "id": 78,
+    "name_fr": "Araign\u00c3\u00a9e",
+    "name_en": "Spider",
+    "coords": [
+      3,
+      16
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "hours": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "location": "Arbre",
+    "probability": "Commun",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 600
+  },
+  {
+    "id": 79,
+    "name_fr": "Tarentule",
+    "name_en": "Tarantula",
+    "coords": [
+      4,
+      16
+    ],
+    "months_north": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ],
+    "months_south": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "hours": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3
+    ],
+    "location": "Sol",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 8000
+  },
+  {
+    "id": 80,
+    "name_fr": "Scorpion",
+    "name_en": "Scorpion",
+    "coords": [
+      5,
+      16
+    ],
+    "months_north": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "months_south": [
+      1,
+      2,
+      3,
+      4,
+      11,
+      12
+    ],
+    "hours": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      0,
+      1,
+      2,
+      3
+    ],
+    "location": "Sol",
+    "probability": "Tr\u00c3\u00a8s rare",
+    "threshold": "\u00e2\u0080\u0093",
+    "price": 8000
+  }
+]
