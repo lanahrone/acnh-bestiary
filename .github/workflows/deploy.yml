@@ -1,0 +1,19 @@
+name: Deploy
+
+on:
+  push:
+    branches: main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+    - uses: actions/checkout@v3
+    - id: Build-Vue
+      uses: xRealNeon/VuePagesAction@1.0.1
+      with:
+        username: 'lanahrone'
+        reponame: 'acnh-bestiary'
+        token: ${{ secrets.GITHUB_TOKEN }}
+        useyarn: true
