@@ -5,7 +5,7 @@
         {{ grid.label }}
       </button>
 
-      <button @click="toggleMissing">💡 Highligh missing</button>
+      <button style="margin-left: 2rem" @click="toggleMissing">💡</button>
     </div>
 
     <TheGrid v-if="currentGrid" :grid="currentGrid"></TheGrid>
@@ -55,5 +55,23 @@ body, html {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+button {
+  min-width: 3rem;
+  min-height: 3rem;
+  margin: 0.25rem;
+  background-color: #F8ECC3;
+  border: 2px solid #E5DAB0;
+  border-radius: 0.25rem;
+  font-size: 1.25rem;
+}
+button:hover, button:active {
+  background-color: #b8955344;
+} 
+button:first-of-type {
+  margin-left: 0;
+}
+button:last-of-type {
+  margin-right: 0;
 }
 </style>

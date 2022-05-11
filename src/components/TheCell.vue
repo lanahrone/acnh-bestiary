@@ -82,9 +82,9 @@ export default {
         justify-content: center;
         align-items: center;
         position: relative;
-        width: 15vh;
+        width: 12vh;
         min-width: 100px;
-        height: 15vh;
+        height: 12vh;
         min-height: 100px;
     }
     .cell img {
