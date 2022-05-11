@@ -18,11 +18,14 @@ export default {
     return {
       currentGrid: null,
       grids: {
-        insects: { width: 16, height: 5, label: "🦋", data: insects },
-        fishes: { width: 16, height: 5, label: "🐟", data: fishes },
-        deepsea: { width: 8, height: 5, label: "🐚", data: [] },
+        insects: { type: "insects", width: 16, height: 5, label: "🦋", data: insects },
+        fishes: { type: "fishes", width: 16, height: 5, label: "🐟", data: fishes },
+        deepsea: { type: "deepsea", width: 8, height: 5, label: "🐚", data: [] },
       }
     }
+  },
+  mounted() {
+    this.currentGrid = this.grids.insects
   }
 }
 </script>
