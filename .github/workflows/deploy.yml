@@ -1,20 +1,19 @@
-  name: Deploy to Github Pages
-  on:
-    push:
-      branches:
-        - main
-  jobs:
-    gh-pages-deploy:
-      name: Deploying to Github Pages
-      runs-on: ubuntu-latest
-      steps:
-          - uses: actions/checkout@v3
-          - uses: actions/setup-node@v2
-            with:
-              node-version: '12'
-          - name: Install packages
-            run: npm i
-          - name: Set Creds
-            run: git config user.name "${{ secrets.GIT_USERNAME }}" && git config user.email "${{ secrets.GIT_EMAIL }}"
-          - name: Deploy
-            run: yarn run deploy
+name: Deploy
+
+on:
+  push:
+    branches: main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+    - uses: actions/checkout@v3
+    - id: Build-Vue
+      uses: xRealNeon/VuePagesAction@1.0.1
+      with:
+        username: 'lanahrone'
+        reponame: 'acnh-bestiary'
+        token: ${{ secrets.GITHUB_TOKEN }}
+        useyarn: true
