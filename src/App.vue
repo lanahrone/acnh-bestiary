@@ -4,6 +4,8 @@
       <button v-for="[gridType, grid] in Object.entries(grids)" :key="gridType" @click="currentGrid = grid">
         {{ grid.label }}
       </button>
+
+      <button @click="toggleMissing">💡 Highligh missing</button>
     </div>
 
     <TheGrid v-if="currentGrid" :grid="currentGrid"></TheGrid>
@@ -30,6 +32,11 @@ export default {
   },
   mounted() {
     this.currentGrid = this.grids.insects
+  },
+  methods: {
+    toggleMissing() {
+      window.dispatchEvent(new Event('highlight-missing'))
+    }
   }
 }
 </script>

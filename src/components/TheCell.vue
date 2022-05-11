@@ -1,5 +1,5 @@
 <template>
-    <div class="cell"  @click="toggleOwnership()">
+    <div :class="{ highlight: highlightMissing && availableThisMonth && !owned }" class="cell" @click="toggleOwnership()">
         <div v-if="availableThisMonth" :class="{ blink: isLastHour }" class="icon">{{ icon }}</div>
         <img :src="img" :alt="item.name" :style="{ opacity: availableNow ? 1 : 0.25 }" />
         <div v-if="owned" class="owned">✔️</div>
@@ -14,7 +14,8 @@ export default {
         const key = { 'insects': 'I', 'fishes': 'F', 'deepsea': 'D', }[this.type]
         return {
             img: require(`@/assets/img/${key}${this.item.id}.png`),
-            ownedValue: null
+            ownedValue: null,
+            highlightMissing: false,
         }
     },
     computed: {
@@ -53,12 +54,23 @@ export default {
             else return "⚪"
         }
     },
+    created() {
+        this.ownedValue = this.getSavedOwnership()
+
+        window.addEventListener('highlight-missing', this.toggleHighlightMissing)
+    },
+    beforeUnmount() {
+        window.removeEventListener('highlight-missing', this.toggleHighlightMissing)
+    },
     methods: {
         getSavedOwnership() {
             return parseInt(window.localStorage.getItem(this.localStorageKey) || 0)
         },
         toggleOwnership() {
             this.owned = this.getSavedOwnership() == 0 ? 1 : 0
+        },
+        toggleHighlightMissing() {
+            this.highlightMissing = !this.highlightMissing
         }
     }
 }
@@ -90,6 +102,9 @@ export default {
         position: absolute;
         bottom: .25rem;
         left: .25rem;
+    }
+    .highlight {
+        background-color: #b8955388;
     }
     .blink {
         animation: blink-animation 1s infinite;
