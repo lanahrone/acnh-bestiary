@@ -1,7 +1,7 @@
 <template>
     <div :class="{ highlight: highlightMissing && availableThisMonth && !owned }" class="cell" @click="toggleOwnership()">
         <div v-if="availableThisMonth" :class="{ blink: isLastHour }" class="icon">{{ icon }}</div>
-        <img :src="img" :alt="item.name" :style="{ opacity: availableNow ? 1 : 0.25 }" />
+        <img :src="img" :alt="item.name" :style="{ opacity: availableThisMonth && availableNow ? 1 : 0.25 }" />
         <div v-if="owned" class="owned">✔️</div>
     </div>
 </template>
