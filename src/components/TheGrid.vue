@@ -2,15 +2,18 @@
     <table border="1">
         <tr v-for="(r, rIndex) in Array(grid.height)" :key="`row${rIndex}`">
             <td v-for="(c, cIndex) in Array(grid.width)" :key="`cell${cIndex}`">
-                {{ items[rIndex][cIndex] }}
+                <TheCell :item="items[rIndex][cIndex]"></TheCell>
             </td>
         </tr>
     </table>
 </template>
 
 <script>
+import TheCell from "@/components/TheCell.vue"
+
 export default {
     name: "TheGrid",
+    components: { TheCell },
     props: { grid: Object },
     computed: {
         items() {
