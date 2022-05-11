@@ -1,5 +1,6 @@
 {
   "name": "acnh-bestiary",
+  "description": "Animal Crossing: New Horizons - Personal Bestiary",
   "version": "0.1.0",
   "private": true,
   "scripts": {
