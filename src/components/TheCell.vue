@@ -1,11 +1,22 @@
 <template>
-    <div v-if="availableThisMonth" :class="{ blink: isLastHour }" :style="{ opacity: availableNow ? 1 : 0.25 }">{{ icon }}</div>
+    <div class="cell">
+        <div v-if="availableThisMonth" :class="{ blink: isLastHour }" class="icon">{{ icon }}</div>
+        <img :src="img" :alt="item.name" :style="{ opacity: availableNow ? 1 : 0.25 }" />
+        <div v-if="owned" class="owned">✔️</div>
+    </div>
 </template>
 
 <script>
 export default {
     name: "TheCell",
-    props: { item: Object },
+    props: { item: Object, type: String },
+    data() {
+        const key = { 'insects': 'I', 'fishes': 'F', 'deepsea': 'D', }[this.type]
+        return {
+            img: require(`@/assets/img/${key}${this.item.id}.png`)
+        }
+        
+    },
     computed: {
         currentMonth: () => new Date().getMonth() + 1,
         currentHour: () => new Date().getHours(),
@@ -24,6 +35,9 @@ export default {
         isLastHour() {
             return this.availableNow && !this.item.hours.includes(this.currentHour + 1)
         },
+        owned() {
+            return !!parseInt(window.localStorage.getItem(`${this.type}_${this.item.id}`));
+        },
         icon() {
             if (this.isFirstMonth) return "🔵"
             else if (this.isLastMonth) return "🟠"
@@ -34,6 +48,32 @@ export default {
 </script>
 
 <style>
+    .cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 15vh;
+        min-width: 100px;
+        height: 15vh;
+        min-height: 100px;
+    }
+    .cell img {
+        width: 80%;
+        max-width: 128px;
+        height: 80%;
+        max-height: 128px;
+    }
+    .icon {
+        position: absolute;
+        top: .25rem;
+        right: .25rem;
+    }
+    .owned {
+        position: absolute;
+        bottom: .25rem;
+        left: .25rem;
+    }
     .blink {
         animation: blink-animation 1s infinite;
     }

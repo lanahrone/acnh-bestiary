@@ -1,8 +1,8 @@
 <template>
-    <table border="1">
+    <table cellspacing="0">
         <tr v-for="(r, rIndex) in Array(grid.height)" :key="`row${rIndex}`">
             <td v-for="(c, cIndex) in Array(grid.width)" :key="`cell${cIndex}`" @click="toggleOwnership(items[rIndex][cIndex].id)">
-                <TheCell :item="items[rIndex][cIndex]"></TheCell>
+                <TheCell :type="this.grid.type" :item="items[rIndex][cIndex]"></TheCell>
             </td>
         </tr>
     </table>
@@ -59,3 +59,12 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+table {
+    border: 1px solid #E5DAB0;
+}
+td {
+    border: 1px solid #E5DAB0;
+}
+</style>

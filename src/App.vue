@@ -1,9 +1,13 @@
 <template>
-  <button v-for="[gridType, grid] in Object.entries(grids)" :key="gridType" @click="currentGrid = grid">
-    {{ grid.label }}
-  </button>
+  <div style="margin: 0 2rem;">
+    <div>
+      <button v-for="[gridType, grid] in Object.entries(grids)" :key="gridType" @click="currentGrid = grid">
+        {{ grid.label }}
+      </button>
+    </div>
 
-  <TheGrid v-if="currentGrid" :grid="currentGrid"></TheGrid>
+    <TheGrid v-if="currentGrid" :grid="currentGrid"></TheGrid>
+  </div>
 </template>
 
 <script>
@@ -29,3 +33,20 @@ export default {
   }
 }
 </script>
+
+<style>
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F8ECC3;
+}
+#app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+</style>
