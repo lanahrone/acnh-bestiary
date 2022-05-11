@@ -11,7 +11,7 @@ export default {
     name: "TheCell",
     props: { item: Object, type: String },
     data() {
-        const key = { 'insects': 'I', 'fishes': 'F', 'deepsea': 'D', }[this.type]
+        const key = { "insects": "I", "fishes": "F", "deepsea": "D", }[this.type]
         return {
             img: require(`@/assets/img/${key}${this.item.id}.png`),
             ownedValue: null,
@@ -57,10 +57,10 @@ export default {
     created() {
         this.ownedValue = this.getSavedOwnership()
 
-        window.addEventListener('highlight-missing', this.toggleHighlightMissing)
+        window.addEventListener("highlight-missing", this.toggleHighlightMissing)
     },
     beforeUnmount() {
-        window.removeEventListener('highlight-missing', this.toggleHighlightMissing)
+        window.removeEventListener("highlight-missing", this.toggleHighlightMissing)
     },
     methods: {
         getSavedOwnership() {

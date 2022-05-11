@@ -33,7 +33,9 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {
+      "quotes": ["error", "double"]
+    }
   },
   "browserslist": [
     "> 1%",

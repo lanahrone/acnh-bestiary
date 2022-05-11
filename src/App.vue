@@ -35,7 +35,7 @@ export default {
   },
   methods: {
     toggleMissing() {
-      window.dispatchEvent(new Event('highlight-missing'))
+      window.dispatchEvent(new Event("highlight-missing"))
     }
   }
 }
