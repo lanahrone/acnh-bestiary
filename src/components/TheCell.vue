@@ -1,5 +1,5 @@
 <template>
-    <div class="cell">
+    <div class="cell"  @click="toggleOwnership()">
         <div v-if="availableThisMonth" :class="{ blink: isLastHour }" class="icon">{{ icon }}</div>
         <img :src="img" :alt="item.name" :style="{ opacity: availableNow ? 1 : 0.25 }" />
         <div v-if="owned" class="owned">✔️</div>
@@ -13,9 +13,9 @@ export default {
     data() {
         const key = { 'insects': 'I', 'fishes': 'F', 'deepsea': 'D', }[this.type]
         return {
-            img: require(`@/assets/img/${key}${this.item.id}.png`)
+            img: require(`@/assets/img/${key}${this.item.id}.png`),
+            ownedValue: null
         }
-        
     },
     computed: {
         currentMonth: () => new Date().getMonth() + 1,
@@ -35,13 +35,30 @@ export default {
         isLastHour() {
             return this.availableNow && !this.item.hours.includes(this.currentHour + 1)
         },
-        owned() {
-            return !!parseInt(window.localStorage.getItem(`${this.type}_${this.item.id}`));
+        localStorageKey() {
+            return `${this.type}_${this.item.id}`
+        },
+        owned: {
+            get() {
+                return !!this.ownedValue
+            },
+            set(newValue) {
+                this.ownedValue = newValue
+                window.localStorage.setItem(this.localStorageKey, newValue)
+            }
         },
         icon() {
             if (this.isFirstMonth) return "🔵"
             else if (this.isLastMonth) return "🟠"
             else return "⚪"
+        }
+    },
+    methods: {
+        getSavedOwnership() {
+            return parseInt(window.localStorage.getItem(this.localStorageKey) || 0)
+        },
+        toggleOwnership() {
+            this.owned = this.getSavedOwnership() == 0 ? 1 : 0
         }
     }
 }

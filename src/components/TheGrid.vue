@@ -1,7 +1,7 @@
 <template>
     <table cellspacing="0">
         <tr v-for="(r, rIndex) in Array(grid.height)" :key="`row${rIndex}`">
-            <td v-for="(c, cIndex) in Array(grid.width)" :key="`cell${cIndex}`" @click="toggleOwnership(items[rIndex][cIndex].id)">
+            <td v-for="(c, cIndex) in Array(grid.width)" :key="`cell${cIndex}`">
                 <TheCell :type="this.grid.type" :item="items[rIndex][cIndex]"></TheCell>
             </td>
         </tr>
@@ -49,12 +49,6 @@ export default {
                     window.localStorage.setItem(key, 0)
                 }
             })
-        },
-        toggleOwnership(itemId) {
-            const key = `${this.grid.type}_${itemId}`
-            const currentValue = window.localStorage[key]
-            window.localStorage.setItem(key, currentValue === "0" ? "1" : "0")
-            this.$forceUpdate()
         }
     }
 }
