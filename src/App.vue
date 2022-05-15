@@ -1,7 +1,7 @@
 <template>
   <div style="margin: 0 2rem;">
     <div>
-      <button v-for="[gridType, grid] in Object.entries(grids)" :key="gridType" @click="currentGrid = grid">
+      <button v-for="[gridType, grid] in Object.entries(grids)" :key="gridType" @click="changeGrid(grid)">
         {{ grid.label }}
       </button>
 
@@ -34,6 +34,12 @@ export default {
     this.currentGrid = this.grids.insects
   },
   methods: {
+    changeGrid(newGrid) {
+      this.currentGrid = null
+      setTimeout(() => {
+        this.currentGrid = newGrid
+      }, 0);
+    },
     toggleMissing() {
       window.dispatchEvent(new Event("highlight-missing"))
     }
