@@ -15,6 +15,7 @@
 <script>
 import insects from "./data/insects.json"
 import fishes from "./data/fishes.json"
+import deepsea from "./data/deepsea.json"
 import TheGrid from "./components/TheGrid.vue"
 
 export default {
@@ -26,7 +27,7 @@ export default {
       grids: {
         insects: { type: "insects", width: 16, height: 5, label: "🦋", data: insects },
         fishes: { type: "fishes", width: 16, height: 5, label: "🐟", data: fishes },
-        deepsea: { type: "deepsea", width: 8, height: 5, label: "🐚", data: [] },
+        deepsea: { type: "deepsea", width: 8, height: 5, label: "🐚", data: deepsea },
       }
     }
   },
